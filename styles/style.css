@@ -2,11 +2,14 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: #fff;
    
 }
 .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 100px auto;
+    
 }
 
 .title{
@@ -52,4 +55,62 @@ body{
 }
 .right-heading img{
     width: 100%;
+}
+
+.section-title{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.card{
+    width: 329px;
+    height: 476px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: auto auto;
+    margin: 0px 5px;
+    border-radius: 5px;
+    
+   
+}
+
+
+.card img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    margin-left: 14px;
+    margin-top: 15px;
+}
+
+.card-details{
+    margin-left: 14px;
+}
+.card-title{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: .8;
+}
+.card-price{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 6px;
+    line-height: .8;
+}
+.card-rating{
+    font-size: 14px;
+    line-height: 0.8;
+    color: orange;
+}
+.rating{
+    color: #787885;
+    font-size: 14px;
+}
+.card-text{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #787885;
+    line-height: 0.8;
 }
