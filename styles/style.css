@@ -76,9 +76,10 @@ section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    align-items: center;
     grid-row-gap: 30px;
     grid-column-gap: 30px;
-    margin: 0 220px;
+    margin: 0 50px;
     
 }
 
@@ -203,6 +204,13 @@ footer{
     .title{
         text-align: center;
     }
+    .heading-title{
+        font-size: 28px;
+        line-height: 1.5em;
+    }
+    .heading-text{
+        font-size: 14px;
+    }
     .heading, .cards{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
@@ -223,13 +231,10 @@ footer{
         margin-right: 10%;
     }
     
-    .heading-title{
-        font-size: 28px;
-        line-height: 1.5em;
+    .card {
+        width: 100%;
     }
-    .heading-text{
-        font-size: 14px;
-    }
+
     .see-more{
         right: 280px;
     }
@@ -245,3 +250,4 @@ footer{
 }
 
 
+}
