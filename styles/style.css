@@ -233,7 +233,7 @@ footer{
 }
 .subscribe{
     margin-top: 70px;
-    width: 70%;
+    width: 90%;
 }
 .subscribe-btn{
     background-color: #E02C6D;
@@ -311,14 +311,17 @@ footer{
     }
     .footer-content p{
         font-size: 8px;
-
-}
+    }
+    .subscribe {
+        width: 80%;
+    }
     .gadgets{
     padding-right: 60px;
 }
 
-
 }
+
+
 
 
 /* For Tablet Device */
@@ -358,7 +361,7 @@ footer{
         right: 300px;
     }
     .subscribe {
-        width: 60%;
+        width: 80%;
     }
     .subscribe h2{
         font-size: 20px;
